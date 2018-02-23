@@ -16,6 +16,8 @@
  */
 
  @import "materialize";
+@import "gritter";
+
 
  body {
    font-family: 'Montserrat', sans-serif !important;
@@ -113,7 +115,9 @@
   margin: 0 0 20px 0;
  }
 
-
+ .fields {
+  text-align: center;
+ }
 
  .slider {
    border-radius: 1em;
